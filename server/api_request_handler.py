@@ -2,9 +2,6 @@ from server.requests_to_models.request_parser import RequestParser, ParseError
 from server.requests_to_models.request_executor import RequestExecutor, ExecutionError
 from proxy_py import settings
 
-import re
-import json
-import urllib.parse
 
 class ApiRequestHandler:
 

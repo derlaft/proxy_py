@@ -1,8 +1,7 @@
 import aiohttp
 import json
-import requests
-import aiosocks
 from aiosocks.connector import ProxyConnector, ProxyClientRequest
+
 
 async def get(url, *args, **kwargs):
     return await request('get', url, *args, **kwargs)

@@ -1,6 +1,3 @@
-import requests
-# from core.models import Proxy, getProxyOfProtocol
-
 import async_requests
 
 

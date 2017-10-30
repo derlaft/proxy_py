@@ -1,13 +1,9 @@
-from core.models import Proxy
 from server.api_request_handler import ApiRequestHandler
 
-import asyncio
 import aiohttp
 import aiohttp.web
 
-import threading
 import logging
-import re
 
 _proxy_provider_server = None
 _logger = logging.getLogger('proxy_py/server')

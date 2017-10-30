@@ -10,3 +10,7 @@ pages_collector_debug_log
 settings.py
 migrations
 logs
+bin/
+include/
+lib/
+pip-selfcheck.json

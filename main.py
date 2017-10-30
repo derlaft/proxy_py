@@ -3,8 +3,8 @@
 # TODO: fix socks proxies
 
 import asyncio
+import init_django # @TODO: fix this shit
 
-import init_django
 from proxy_py import settings
 from processor import Processor
 from server.proxy_provider_server import ProxyProviderServer

@@ -1,5 +1,6 @@
 import signal
 
+
 class ProgrammKiller:
     kill = False
     killingAttempts = 0
