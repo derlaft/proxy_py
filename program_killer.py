@@ -1,7 +1,7 @@
 import signal
 
 
-class ProgrammKiller:
+class ProgramKiller:
     kill = False
     killingAttempts = 0
     def __init__(self):

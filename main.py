@@ -8,12 +8,12 @@ import init_django # @TODO: fix this shit
 from proxy_py import settings
 from processor import Processor
 from server.proxy_provider_server import ProxyProviderServer
-from program_killer import ProgrammKiller
+from program_killer import ProgramKiller
 import collectors_list
 
 proxies = []
 
-killer = ProgrammKiller()
+killer = ProgramKiller()
 
 # TODO: fix closing of program when it's waiting for finish coroutines
 if __name__ == "__main__":
